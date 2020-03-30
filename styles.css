@@ -12,6 +12,7 @@
     --bright-blue: hsl(224, 93%, 58%);
     --light-grayish-blue: hsl(240, 75%, 98%);
     --light-gray: hsl(0, 0%, 75%);
+    --moderate-cyan: hsl(170, 45%, 43%);
 }
 
 /* Typography */
@@ -102,7 +103,10 @@ body { overflow-x: hidden; }
 }
 
 .productive__section__content p { width: 80% }
-.green__tag { color: hsl(170, 45%, 43%); }
+.green__tag { 
+    color: var(--moderate-cyan);
+    border-bottom: 1px solid var(--moderate-cyan);
+}
 
 /* Comment card */
 .comment__card {
